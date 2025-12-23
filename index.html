@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой первый сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет! Я начинающий веб-разработчик!</h1>
+    <p>Нажми кнопку ниже, чтобы увидеть магию:</p>
+    <button onclick="showMessage()">Нажми меня</button>
+
+    <script>
+        function showMessage() {
+            alert("Поздравляю! Ты сделал свой первый сайт!");
+        }
+    </script>
+</body>
+</html>
